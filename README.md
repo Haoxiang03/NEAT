@@ -8,6 +8,10 @@ Neat is a novel parameter-efficient fine-tuning (PEFT) method that introduces no
 
 For more details, please refer to the [paper](https://arxiv.org/abs/2410.01870).
 
+## Setup
+Neat is built upon the LLM-Adapters framework. You need to install the framework and its dependencies.
+For more details about LLM-Adapters, refer to their [GitHub repository](https://github.com/AGI-Edgerunners/LLM-Adapters).
+
 ## Citation
 If you find this work useful, please cite:
 
