@@ -14,19 +14,27 @@ For more details about LLM-Adapters, refer to their [GitHub repository](https://
 
 ## Training
 Example usage to finetune with NEAT for multiple GPUs
-```bibtex
+```
 bash scripts/finetune.sh
+```
+
+## Evaluation
+Example usage to evaluate the performance of NEAT for single GPU
+```
+bash scripts/commonsense_evaluate.sh
+bash scripts/math_evaluate.sh
 ```
 
 ## Citation
 If you find this work useful, please cite:
 
-```bibtex
+```
 @article{zhong2024neat,
   title={Neat: Nonlinear Parameter-efficient Adaptation of Pre-trained Models},
   author={Zhong, Yibo and Jiang, Haoxiang and Li, Lincan and Nakada, Ryumei and Liu, Tianci and Zhang, Linjun and Yao, Huaxiu and Wang, Haoyu},
   journal={arXiv preprint arXiv:2410.01870},
   year={2024}
 }
+```
 
 
