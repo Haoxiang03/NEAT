@@ -12,6 +12,12 @@ For more details, please refer to the [paper](https://arxiv.org/abs/2410.01870).
 Neat is built upon the LLM-Adapters framework. You need to install the framework and its dependencies.
 For more details about LLM-Adapters, refer to their [GitHub repository](https://github.com/AGI-Edgerunners/LLM-Adapters).
 
+## Training
+Example usage to finetune with NEAT for multiple GPUs
+```bibtex
+bash scripts/finetune.sh
+```
+
 ## Citation
 If you find this work useful, please cite:
 
